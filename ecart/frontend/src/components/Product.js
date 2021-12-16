@@ -15,14 +15,6 @@ const Product = ({ product }) => {
             <strong>{product.name}</strong>
           </Card.Title>
         </Link>
-
-        <Card.Text as='div'>
-          <Rating 
-           value={product.rating}
-           text={`${product.numReviews} reviews`} 
-           />
-        </Card.Text>
-
         <Card.Text as='h3'>${((product.price * 0.25) + Number(product.price)).toFixed(2)} </Card.Text>
       </Card.Body>
     </Card>

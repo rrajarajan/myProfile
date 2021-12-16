@@ -28,7 +28,7 @@ describe("<Todo /> component unit test", () => {
     //TEST PROP Value
     it("should render props correctly", () => {
         // const component = shallow(<Todo {...props} />)
-        // console.log(component.props())
+        console.log(component.props())
         expect(component.props().children).toEqual("buy milk")
     })
     it("should set props correctly", () => {
