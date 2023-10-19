@@ -1,2 +1,9 @@
-# myProfile
-Sample work
+
+# React.js
+# Vue.js
+# Next.js
+# Python
+# Angular
+
+
+
